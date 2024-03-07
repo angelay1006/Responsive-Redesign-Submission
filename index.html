@@ -7,6 +7,8 @@
     <title> CS1300 Responsive Redesign Submission </title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 
 <body>
@@ -23,6 +25,8 @@
                 different screen sizes at high and low fidelity, and finally develop a responsive 
                 website from those prototypes.
             </p>
+        
+        <hr>
 
         <!-- Part 1 -->
         <h2 class="mb-3">Part 1. Identifying Usability Problems </h2>
@@ -33,10 +37,11 @@
             </p>
 
             <h3 class="mb-3">Finding Problems</h3>
+                <h4> Efficiency, Memorability, Learnability </h4>
                 <div class="row mb-5"> <!-- row added to wrap columns -->
                     <!-- Column 1 -->
                     <div class="col">
-                        <h4> Efficiency, Memorability, Learnability </h4>
+                        
                         <p> In evaluating the salon's website, I focused on three core usability principles: 
                             Efficiency, Learnability, and Memorability. Efficiency measures how quickly users 
                             can achieve their goals on the site, like locating information or booking services,
@@ -50,15 +55,14 @@
 
                     <!-- Column 2 -->
                     <div class="col">
-                        <img src="assets/analysis.jpeg" class="img-fluid mt-4" alt="Responsive image">
+                        <img src="assets/analysis.jpeg" class="img-fluid" alt="analysis table of usability">
                     </div>
                 </div> <!-- Closing row div -->
 
-                
-
+                <h4> Accessibility </h4>
                 <div class="row">
                     <div class="col">
-                        <h4> Accessibility </h4>
+                     
                         <p> In addition to analyzing usability based on the three aforementioned principles, I also 
                             used WebAIM WAVE to detect potential accessibility problems. The problems detected 
                             are 10 low contrast errors, and 3 missing alternative texts. WAVE also detected 
@@ -71,7 +75,7 @@
                     </div>
 
                     <div class="col">
-                        <img src="assets/wave_analysis.png" class="img-fluid mt-4" alt="Responsive image">
+                        <img src="assets/wave_analysis.png" class="img-fluid" alt="original website analysis">
                     </div>
                 </div>
 
@@ -81,14 +85,154 @@
                 </p>
 
         <!-- Part 2 -->
-        <h2 class="mb-3">Visual Redesign</h2>
-        <p>This section can be used to discuss the main points of your submission in detail.</p>
+        <hr>
+        <h2 class="mb-3">Part 2. Visual Redesign </h2>
+            <p>I decided to redesign the homepage as this is the first thing a customer would see. </p>
+
+            <!-- Speed Sketching -->
+            <h3> Speed Sketching </h3>
+            <div class="row mb-3">
+                <div class="col">
+                    <p> First, I started off with speed sketching, which was to sketch 9 options 
+                        for my redesign on paper and sketching one option per minute. This was an 
+                        opportunity to come up with potential solutions even though they might not 
+                        be refined — they are just supposed to get the idea across. 
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="assets/speed_sketch.png" class="img-fluid mx-auto d-block" alt="speed sketch">
+                </div>
+            </div>
+
+            <!-- Final Sketch -->
+            <h3> Final Sketch </h3>
+            <div class="row mb-3">
+                <div class="col">
+                    <p> Prior to the wireframing stage, I analyzed my sketches and put together 
+                        the best parts (or the ones that I liked the most) from each of my 
+                        speed sketches. This shows my final sketch which would serve as my final base 
+                        for wireframing.  
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="assets/finalsketch_landing.png" class="img-fluid" alt="final landing page sketch">
+                </div>
+
+                <div class="col">
+                    <img src="assets/finalsketch_details.png" class="img-fluid" alt="final details page sketch">
+                </div>
+
+            </div>
+
+            <!-- Low-Fidelity Wireframing -->
+            <h3> Low-Fidelity Wireframing </h3>
+                <p> For each of the three device types (mobile, tablet, desktop), I created at least one 
+                    wireframe where the content of the website remained the same, but adjusted accordingly 
+                    for the size and dimensions of the screen. With the wireframes, I also aimed to mitigate 
+                    the problems that I have described in Part 1. As can be seen below, the annotations 
+                    describe how my wireframes solve those problems. 
+                </p>
+                
+                <h4 class="mt-4"> Wireframe for Desktop </h4>
+                    <div class="content d-flex justify-content-center">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Hb2GOHLrLjGAWkldxeWCG%2FResponsive-Redesign%3Ftype%3Ddesign%26node-id%3D1%253A3%26mode%3Ddesign%26t%3De4u81r6evXlHMf6r-1" allowfullscreen></iframe>
+                    </div>
+
+                <h4 class="mt-4"> Wireframe for Tablet </h4>
+                    <div class="content d-flex justify-content-center">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Hb2GOHLrLjGAWkldxeWCG%2FResponsive-Redesign%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3De4u81r6evXlHMf6r-1" allowfullscreen></iframe>
+                    </div>
+
+                <h4 class="mt-4"> Wireframe for Mobile </h4>
+                    <div class="content d-flex justify-content-center mb-4">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Hb2GOHLrLjGAWkldxeWCG%2FResponsive-Redesign%3Ftype%3Ddesign%26node-id%3D1%253A2%26mode%3Ddesign%26t%3De4u81r6evXlHMf6r-1" allowfullscreen></iframe>
+                    </div>
+                    
+
+            <!-- Visual Design Guide -->
+            <h3> Visual Design Guide </h3>
+            <div class="row mb-3">
+                <div class="col">
+                    <p> Before moving on to creating my high-fidelity mockups, I began 
+                        to develop a visual design guide in order to make my designs more 
+                        consistent. Here, I prioritized creating a cohesive and intuitive 
+                        user experience through the guide by including a palette of colors 
+                        and typography (with two primary typefaces for headings as one for body text). 
+                        This would act as the foundation for the high-fidelity prototypes, ensuring 
+                        that design elements and interactions across different screen sizes are consistent. 
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="assets/vdg.svg" class="img-fluid mx-auto d-block" alt="visual design guide">
+                </div>
+            </div>
+
+            
+            <!-- High-Fidelity Mockup -->
+            <h3> High-Fidelity Mockups </h3>
+                <p> For the high-fidelity mockups, I focused on translating the visual 
+                    design guide into more polished representations for mobile, tablet, 
+                    and desktop screens. Each mockup includes adjustments made for each 
+                    device's constraints. Each mockup is a direct evolution from the 
+                    low-fidelity wireframes, keeping the core content and structure while 
+                    staying as true as possible to the visual style guide. With this, I 
+                    aimed to seamlessly transition from the concept to the final design.
+                </p>
+
+                <h4 class="mt-4"> Desktop Mockup </h4>
+                    <p> The desktop mockup takes full advantage of the larger screen, with a more expansive layout. </p>
+                    <div class="content d-flex justify-content-center">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Hb2GOHLrLjGAWkldxeWCG%2FResponsive-Redesign%3Ftype%3Ddesign%26node-id%3D15%253A2%26mode%3Ddesign%26t%3De4u81r6evXlHMf6r-1" allowfullscreen></iframe>
+                    </div>
+                
+                <h4 class="mt-4"> Tablet Mockup </h4>
+                    <p> The tablet version balances the mobile and desktop versions, and provides more space for content. </p>
+                    <div class="content d-flex justify-content-center">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Hb2GOHLrLjGAWkldxeWCG%2FResponsive-Redesign%3Ftype%3Ddesign%26node-id%3D40%253A59%26mode%3Ddesign%26t%3De4u81r6evXlHMf6r-1" allowfullscreen></iframe>
+                    </div>
+                <h4 class="mt-4"> Mobile Mockup </h4>
+                    <p> The mobile mockup emphasizes usability and readability on smaller screens, with a compact layout. </p>
+                    <div class="content d-flex justify-content-center">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6Hb2GOHLrLjGAWkldxeWCG%2FResponsive-Redesign%3Ftype%3Ddesign%26node-id%3D46%253A87%26mode%3Ddesign%26t%3De4u81r6evXlHMf6r-1" allowfullscreen></iframe>
+                    </div>
+
         
         <!-- Part 3 -->
-        <h2 class="mb-3">Conclusion</h2>
-        <p>Summarize your findings, reflect on your work, and perhaps suggest next steps or implications.</p>
+        <h2 class="mb-3 mt-4">Part 3. Responsive Design </h2>
+            <h3> Process </h3>
+                <p> In the redesign of the webpage, I used only HTML and CSS. I started by outlining the HTML 
+                    structure to further solidify the accessibility and SEO readiness. This is the base on which 
+                    the hierarchy of content lies and what will also make the page more understandable for 
+                    assistive technologies. Apart from this, I used CSS for the colors and fonts to align with 
+                    what I came up with in the visual design guide. In terms of layout, Flexbox was used in order 
+                    to create the flexibility that responsive design requirements demanded. 
+                    You can find the website <a href="https://angelay1006.github.io/responsive_redesign/">here</a>.</p>
+                
+                <img src="assets/final.png" class="img-fluid mx-auto d-block" alt="final product">
+
+                <ul class="mt-4">
+                    <li>The interactive elements in the navbar include buttons styled with visual responses indicating states of hover, even if the buttons are not fully functional. This is a subtle touch but a very important one toward giving a more interactive user experience.</li>
+                    <li>Most of my efforts made the design responsive, taking advantage of media queries for the layout of the design to move perfectly with the devices. This allowed me to give a content-centric approach; in this case, the breakpoints were set according to design dimensions.</li>
+                    <li>Other core pillars of the design, like accessibility, ensured that the page follows semantic HTML, while focusing on ARIA roles to enhance the usability of the page among all users. I also made sure of the color contrast, according to WCAG standards, and made all the interactive elements focusable by the keyboard.</li>
+                    <li>For testing, I frequently resized my browser window to gauge the layout's fluidity across various screen sizes. The WAVE tool from WebAIM has been extremely useful for me to pinpoint and rectify the accessibility issues on my site.</li>
+                </ul>
+                
+
+            <h3> Areas of Improvement </h3>
+                <ul class="mt-3">
+                    <li> The font size of the website may not be as responsive as I wanted to, when in the context of resizing fonts in the browser. As this is my first serious project using HTML and CSS, I wasn't aware that defining font sizes in absolute units would cause the fonts to not be affected by the browser's font size settings. I had already invested so much time in converting everything from "px" to "vh" — here I chose vh for responsiveness. </li>
+                    <li> During testing with the WAVE tool extension, I noticed that the landing page having some slight issues with layout due to the way the extension resizes the page. This did not come up during testing with resizing the actual browser, though. </li>
+                    <li> Upon testing with Google Translate, while the details page did not experience any changes in layout, the landing page exhibited similar problems I have mentioned with the off-center layout of the title. </li>
+                </ul>
+            
 
         <!-- Part 4 -->
+        <h2 class="mb-3 mt-4">Part 4. Findings/What I Learned </h2>
+            <p>In this section, I'll share the key takeaways and insights I gained from this project, which marked my first official experience in combining design principles with coding practices. Throughout this process, I practiced my ability to discern between what works and what doesn't in web interfaces. I went through the entire design process, starting from the initial ideation phase with quick sketches, advancing to more refined low-fidelity prototypes in Figma, and eventually creating detailed high-fidelity prototypes. This project has significantly boosted my confidence in navigating and using Figma as well. </p>
+            <p>A major lesson for me was understanding the critical role of HTML structure in shaping a website's accessibility and its implications for search engine optimization. Implementing the visual design through CSS, I did my best to ensure consistency with color schemes and typography. The project also allowed me to identify areas for further improvement. For example, I realized the limitations of using absolute units for font sizes, which can hinder the adaptability of text to browser settings. I also came to the conclusion that using a framework such as Bootstrap would facilitate easier transitions between layouts. As someone who's never used Bootstrap before, redesigning this website has made me eager to try out this framework (which I am actually using for this submission page). </p>
     </div>
 
     <!-- Bootstrap JS -->
